@@ -1,18 +1,18 @@
 {
-  "name": "jav-scarpy",
+  "name": "jav-scarpyxyz",
   "version": "0.6.0",
   "description": "",
-  "main": "jav.js",
+  "main": "javxyz.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/raawaa/jav-scrapy.git"
+    "url": "https://github.com/srsman/jav-scrapy.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "raawaa <wenjie_yu@yeah.net>",
   "bin": {
-    "jav": "jav.js"
+    "javxyz": "javxyz.js"
   },
   "contributors": [
     "Qiushi Li <qius.li3@gmail.com>"
