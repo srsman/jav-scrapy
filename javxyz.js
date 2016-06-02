@@ -28,6 +28,7 @@ program
   .option('-s, --search <string>', '搜索关键词，可只抓取搜索结果的磁链或封面')
   .option('-b, --base <url>', '自定义抓取的起始页')
   .option('-x, --proxy <url>', '使用代理服务器, 例：-x http://127.0.0.1:8087')
+  .option('-w, --website <url>','自定站点抓取')
   .parse(process.argv);
 
 
