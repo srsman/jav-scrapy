@@ -13,7 +13,7 @@ var mkdirp = require('mkdirp');
 
 // global var
 
-const baseUrl = 'https://www.javbus.me';
+const baseUrl = 'https://www.javbus.xyz';
 const searchUrl = '/search';
 var pageIndex = 1;
 var currentPageHtml = null;
@@ -38,7 +38,7 @@ var proxy = process.env.http_proxy || program.proxy;
 request = request.defaults({
   timeout: timeout,
   headers: {
-    'Referer': 'http://www.javbus.in',
+    'Referer': 'http://www.javbus.xyz',
     'Cookie': 'existmag=all'
   }
 });
